@@ -1,0 +1,1 @@
+JavaScript program to print vowel in in given message user entered
