@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.fahrenheit  {
+    margin: 30px auto;
+    background-color: blueviolet;
+}
+
+.celsius {
+    margin: 30px auto;
+    background-color: blueviolet;
+}
