@@ -8,7 +8,7 @@
 </head>
 <body>
   <script>
-      let myValues = [20, 24, 27, 29, 21]
+      let myValues = [6, 2, 3, 1]
       let N = myValues.reduce((a, b) => a + b, 0)
       let mlen = myValues.length
       let u = N/mlen
@@ -18,15 +18,15 @@
       let square
 
       for (i = 0; i < mlen; i++) {
-        totalN = parseFloat(Math.pow(myValues[i] - u, 2))
+        totalN = Math.pow(parseFloat(myValues[i]-u), 2);
        x += totalN 
 }
-valueTwo = x/N
+valueTwo = x/mlen
 
 square = Math.sqrt(valueTwo)
 console.log(square)
 document.write('Standard deviation is', + + square)
-  </script>
+  </script> 
   
 </body>
 </html>
