@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SD</title>
+</head>
+<body>
+  <script>
+      let myValues = [6, 2, 3, 1]
+      let N = myValues.reduce((a, b) => a + b, 0)
+      let mlen = myValues.length
+      let u = N/mlen
+      let totalN
+      let x = 0
+      let valueTwo
+      let square
+
+      for (i = 0; i < mlen; i++) {
+        totalN = Math.pow(parseFloat(myValues[i]-u), 2);
+       x += totalN 
+}
+valueTwo = x/mlen
+
+square = Math.sqrt(valueTwo)
+console.log(square)
+document.write('Standard deviation is', + + square)
+  </script> 
+  
+</body>
+</html>
