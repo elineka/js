@@ -11,10 +11,10 @@ main{
 
 .fahrenheit  {
     margin: 30px auto;
-    background-color: blueviolet;
+    background-color: rgb(184, 166, 201);
 }
 
 .celsius {
     margin: 30px auto;
-    background-color: blueviolet;
+    background-color: rgb(192, 177, 206);
 }
