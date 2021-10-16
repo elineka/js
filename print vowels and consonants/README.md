@@ -1,0 +1,1 @@
+JavaScript program to print vowel  and consonant  in given message user 
