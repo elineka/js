@@ -1,0 +1,8 @@
+.fc {
+   display: flex;
+}
+.fc > p {
+    margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}

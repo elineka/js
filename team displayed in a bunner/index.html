@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="fc">
+    <p id="team1"></p>
+    <p id="team2"></p>
+    <p id="team3"></p>
+    <p id="team4"></p>
+</div>
+
+    <script>
+        let team1 ="SimbaSC"
+        let team2 ="yangaFC"
+        let team3 ="AzaMFC"
+        let team4 ="Lipuli"
+
+        let text1 =""
+        let text2 =""
+        let text3 =""
+        let text4 =""
+        
+        for(let x of team1){
+            text1 += x + "<br>"
+        }
+        for(let x of team2){
+            text2 += x + "<br>"
+        }
+        for(let x of team3){
+            text3 += x + "<br>"
+        }
+        for(let x of team4){
+            text4 += x + "<br>"
+        }
+document.getElementById('team1').innerHTML = text1 
+document.getElementById('team2').innerHTML = text2 
+document.getElementById('team3').innerHTML = text3
+document.getElementById('team4').innerHTML = text4
+
+
+    </script>
+</body>
+</html>

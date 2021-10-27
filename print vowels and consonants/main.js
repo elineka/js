@@ -16,5 +16,7 @@ function () {
 
     myVowel.innerHTML= "Vowels are" +" "+vowels
     myConsonants.innerHTML="Consonants are" +" "+consonants
+    let total = vowels.length
+    console.log(total)
 }
 )
