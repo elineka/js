@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <script>
+        const paragraph = "This is a sample paragraph to demonstrate how to print consonants in JavaScript.";
+
+const vowels = ['a', 'e', 'i', 'o', 'u'];
+let consonants = "";
+
+for (let i = 0; i < paragraph.length; i++) {
+  const letter = paragraph[i].toLowerCase();
+  
+  if (letter >= 'a' && letter <= 'z' && !vowels.includes(letter)) {
+    consonants += letter;
+  }
+}
+
+console.log(consonants); // Prints "ths s  smpl prgrph t dmnstrt hw t prnt cnsnnts n jvscrpt."
+
+    </script>
+</body>
+</html>
